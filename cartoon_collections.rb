@@ -9,7 +9,7 @@ end
 
 def list_dwarves(array)
   hash = Hash.new
-%w(array).each_with_index { |item, index|
+array.each_with_index { |item, index|
   hash[item] = index + 1
   }
   hash
